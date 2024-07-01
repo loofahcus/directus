@@ -1,8 +1,10 @@
 import type { Driver } from '@directus/storage';
 
+
 export const _aliasMap: Record<string, string> = {
 	local: '@directus/storage-driver-local',
 	s3: '@directus/storage-driver-s3',
+	tos: '@directus/storage-driver-tos',
 	supabase: '@directus/storage-driver-supabase',
 	gcs: '@directus/storage-driver-gcs',
 	azure: '@directus/storage-driver-azure',

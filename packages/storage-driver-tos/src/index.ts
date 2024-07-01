@@ -71,7 +71,7 @@ export class DriverTos implements Driver {
 			}
 		);
 
-		
+
 		return {
 			size: Number(data['content-length']) as number,
 			modified: new Date(data['last-modified']) as Date,
@@ -104,7 +104,7 @@ export class DriverTos implements Driver {
 		await this.client.copyObject(params)
 	}
 
-	async write(filepath: string, content: Readable, type?: string) {
+	async write(filepath: string, content: Readable, _?: string) {
 		const params = {
 			bucket: this.config.bucket,
 			key: this.fullPath(filepath),

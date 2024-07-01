@@ -2,7 +2,7 @@
 	"name": "@directus/storage-driver-tos",
 	"version": "0.0.1",
 	"description": "tos file storage abstraction for `@directus/storage`",
-	"homepage": "https://github.com/loofahcus/directus/tree/main/packages/storage-driver-s3",
+	"homepage": "https://github.com/loofahcus/directus/tree/main/packages/storage-driver-tos",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/loofahcus/directus.git",
